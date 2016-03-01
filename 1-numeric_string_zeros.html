@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+<script type='text/javascript'>
+var exp = function(n){
+    var result = [];
+    var ref = n.indexOf('.') !== -1 ? n.indexOf('.') : n.length;
+    for(var i = 0; i < n.length; i++){
+        if(n.charAt(i) === '0' || i === ref) continue;
+        var zeros = '';
+        var j = 0;
+        if(i < ref){
+            while(j < ref-i-1){
+                zeros = zeros.concat('0');
+                j++;
+            }
+            result.push(n.charAt(i)+''+zeros);
+        }else{
+            while(j < (i-ref-1)){
+                zeros = zeros.concat('0');
+                j++;
+            }
+            result.push('.'+zeros+''+n.charAt(i));
+        }
+    }
+    return result;
+}
+function output(s){
+    console.log(s);
+    document.write(s + '<br/>');
+}
+output('Input: 7978901.897, Output: '+ exp('7978901.897'));
+output('Input: 546789, Output: '+ exp('546789'));
+output('Input: 50009, Output: '+ exp('50009'));
+output('Input: 0, Output: '+ exp('0'));
+output('Input: 0.0765, Output: '+ exp('0.0765'));
+</script>
+</body>
+</html>
