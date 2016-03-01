@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head></head>
-<body>
-<script type='text/javascript'>
-var exp = function(n){
+function expand(n){
     var result = [];
     var ref = n.indexOf('.') !== -1 ? n.indexOf('.') : n.length;
     for(var i = 0; i < n.length; i++){
@@ -26,15 +21,8 @@ var exp = function(n){
     }
     return result;
 }
-function output(s){
-    console.log(s);
-    document.write(s + '<br/>');
-}
-output('Input: 7978901.897, Output: '+ exp('7978901.897'));
-output('Input: 546789, Output: '+ exp('546789'));
-output('Input: 50009, Output: '+ exp('50009'));
-output('Input: 0, Output: '+ exp('0'));
-output('Input: 0.0765, Output: '+ exp('0.0765'));
-</script>
-</body>
-</html>
+console.log('Input: 7978901.897, Output: '+ expand('7978901.897'));
+console.log('Input: 546789, Output: '+ expand('546789'));
+console.log('Input: 50009, Output: '+ expand('50009'));
+console.log('Input: 0, Output: '+ expand('0'));
+console.log('Input: 0.0765, Output: '+ expand('0.0765'));

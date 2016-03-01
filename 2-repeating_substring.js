@@ -1,6 +1,3 @@
-<html>
-<body>
-<script>
 function findRepeating(string, substring) {
     var count = 0;
     var l = substring.length;
@@ -11,11 +8,4 @@ function findRepeating(string, substring) {
     }
     return count;
 }
-function output(s){
-    console.log(s);
-    document.write(s + '<br/>');
-}
-output('Input: "xyabcdfgabcsjhgabc", Output: '+ findRepeating('xyabcdfgabcsjhgabc','abc'));
-</script>
-</body>
-</html>
+console.log('Input: "xyabcdfgabcsjhgabc", Output: '+ findRepeating('xyabcdfgabcsjhgabc','abc'));
