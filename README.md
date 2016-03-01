@@ -20,3 +20,12 @@ Input parameters are a string and a substring that is repeated inside the string
 ###### Examples
 For string = "xyabcdfgabcsjhg" and substring = "abc" output should be
 `findRepeating(string, substring) = 2`
+
+### 3. Duplicates in array
+Input is a sorted array of integers. The function findDuplicates(array) returns the number of times a sequence of duplicates appears in the array.
+###### Examples
+For array = [1,5,5,5,7,7,7,9] 5 and 7 are repeated, so output should be
+`findDuplicates(array) = 2`
+
+For array = [1,5,5,5,7,7,7,9,9] 5, 7 and 9 are repeated, so output should be
+`findDuplicates(array) = 3`
