@@ -15,3 +15,8 @@ For n = "7496314" the output should be
 
 And for n = "0"
 `exp(n) = []`
+### 2. Repeating substring
+Input parameters are a string and a substring that is repeated inside the string. The function findRepeating(string, substring) returns the number of times substring is repeated inside string.
+###### Examples
+For string = "xyabcdfgabcsjhg" and substring = "abc" output should be
+`findRepeating(string, substring) = 2`

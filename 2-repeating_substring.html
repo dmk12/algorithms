@@ -1,0 +1,21 @@
+<html>
+<body>
+<script>
+function findRepeating(string, substring) {
+    var count = 0;
+    var l = substring.length;
+    for(var i = 0; i <= string.length-l; i++){
+        if(string.substring(i,i+l) === substring){
+            count++;
+        }
+    }
+    return count;
+}
+function output(s){
+    console.log(s);
+    document.write(s + '<br/>');
+}
+output('Input: "xyabcdfgabcsjhgabc", Output: '+ findRepeating('xyabcdfgabcsjhgabc','abc'));
+</script>
+</body>
+</html>
