@@ -39,6 +39,6 @@ For array = [1,5,5,5,7,7,7,9,9] 5, 7 and 9 are repeated, so output should be
 
 Input is an array of words (strings). The function palindromize(words) returns an array where strings that can be palindromized are returned as palindromes, and -1 is returned if a string can't be palindromized or if input is not a string.
 ##### Examples
-For words = [3,'aba','abba','abc','cecarararar'] `aba`, `abba` and `cecarararar` are palindromes, or can be rearranged to be, so output should be
+For words = [3,'aba','abba','abc','cecarararar'] `aba`, `abba` and `cecarararar` are, or can be rearranged to be palindromes, so output should be
 
 `palindromize(words) = [-1,aba,baab,-1,rcaaeaacr]`
