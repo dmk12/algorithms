@@ -29,3 +29,11 @@ For array = [1,5,5,5,7,7,7,9] 5 and 7 are repeated, so output should be
 
 For array = [1,5,5,5,7,7,7,9,9] 5, 7 and 9 are repeated, so output should be
 `findDuplicates(array) = 3`
+
+### 4. Palindromize
+*Palindrome* is a sequence of characters which reads the same backward or forward.
+
+Input is an array of words (strings). The function palindromize(words) returns an array where strings that can be palindromized are returned as palindromes, and -1 is returned if a string can't be palindromized or if input is not a string.
+##### Examples
+For words = [3,'aba','abba','abc','cecarararar']. `aba`, `abba` and `cecarararar` are palindromes, or can be rearranged to be, so output should be
+`palindromize(words) = [-1,aba,baab,-1,rcaaeaacr]`
