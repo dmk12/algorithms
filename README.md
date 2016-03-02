@@ -8,9 +8,11 @@ Each number in the output array should be written without any leading and traili
 
 ##### Examples
 For n = "7970521.5544" the output should be
+
 `expand(n) = ["7000000", "900000", "70000", "500", "20", "1", ".5", ".05", ".004", ".0004"]`
 
 For n = "7496314" the output should be
+
 `expand(n) = ["7000000", "400000", "90000", "6000", "300", "10", "4"]`
 
 And for n = "0"
@@ -19,12 +21,14 @@ And for n = "0"
 Input parameters are a string and a substring that is repeated inside the string. The function findRepeating(string, substring) returns the number of times substring is repeated inside string.
 ##### Examples
 For string = "xyabcdfgabcsjhg" and substring = "abc" output should be
+
 `findRepeating(string, substring) = 2`
 
 ### 3. Duplicates in array
 Input is a sorted array of integers. The function findDuplicates(array) returns the number of times a sequence of duplicates appears in the array.
 ##### Examples
 For array = [1,5,5,5,7,7,7,9] 5 and 7 are repeated, so output should be
+
 `findDuplicates(array) = 2`
 
 For array = [1,5,5,5,7,7,7,9,9] 5, 7 and 9 are repeated, so output should be
@@ -35,5 +39,6 @@ For array = [1,5,5,5,7,7,7,9,9] 5, 7 and 9 are repeated, so output should be
 
 Input is an array of words (strings). The function palindromize(words) returns an array where strings that can be palindromized are returned as palindromes, and -1 is returned if a string can't be palindromized or if input is not a string.
 ##### Examples
-For words = [3,'aba','abba','abc','cecarararar']. `aba`, `abba` and `cecarararar` are palindromes, or can be rearranged to be, so output should be
+For words = [3,'aba','abba','abc','cecarararar'] `aba`, `abba` and `cecarararar` are palindromes, or can be rearranged to be, so output should be
+
 `palindromize(words) = [-1,aba,baab,-1,rcaaeaacr]`
