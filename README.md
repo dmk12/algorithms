@@ -42,3 +42,10 @@ Input is an array of words (strings). The function palindromize(words) returns a
 For words = [3,'aba','abba','abc','cecarararar'] `aba`, `abba` and `cecarararar` are, or can be rearranged to be palindromes, so output should be
 
 `palindromize(words) = [-1,aba,baab,-1,rcaaeaacr]`
+
+### 5. Merge two sorted arrays
+Input is two sorted arrays of integers. The function mergeSortedArrays(a, b) returns an array that is a combination of a and b, also sorted in ascending order.
+##### Examples
+For a = [1, 5, 5, 5, 7, 7, 7, 9] and b = [1, 2, 6, 7, 13] output should be
+
+`mergeSortedArrays(a, b) = [1,1,2,5,5,5,6,7,7,7,7,9,13]`
