@@ -1,5 +1,5 @@
-## Algorithms
-This repo contains algorithm questions I've come across, and my solutions in JavaScript.
+## Software interview algorithms questions 
+This repo contains algorithm questions I've come across in interviews, and my solutions (in JavaScript).
 ### 1. Numeric string zeros
 Input n is a decimal number n as a string. The function expand(n) transform it into an array of numbers (given as strings
 again), such that each number has only one non-zero digit and their sum equals n.
@@ -46,6 +46,22 @@ For words = [3,'aba','abba','abc','cecarararar'] `aba`, `abba` and `cecarararar`
 ### 5. Merge two sorted arrays
 Input is two sorted arrays of integers. The function mergeSortedArrays(a, b) returns an array that is a combination of a and b, also sorted in ascending order.
 ##### Examples
-For a = [1, 5, 5, 5, 7, 7, 7, 9] and b = [1, 2, 6, 7, 13] output should be
+For a = [1, 5, 5, 5, 7, 7, 7, 9] and b = [1, 2, 6, 7, 13] output should be 
 
 `mergeSortedArrays(a, b) = [1,1,2,5,5,5,6,7,7,7,7,9,13]`
+
+### 6. Combine alternate digits from two integers into a new integer
+Input is two integers a and b. The function returns a new integer r which is combined of the digits of a and b arranged in alternate order. If one of the integers runs out of digits, the remaining digits of the other integer are appended to the result. If result is larger than 100000, return -1.
+##### Examples
+For a = 12 and b = 56 output should be
+
+`1526`
+
+For a = 12 and b = 456 output should be
+
+`41526`
+
+For a = 123 and b = 456 output should be
+
+`-1`
+
