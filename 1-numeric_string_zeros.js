@@ -1,18 +1,18 @@
 function expand(n){
     var result = [];
-    var ref = n.indexOf('.') !== -1 ? n.indexOf('.') : n.length;
+    var dot = n.indexOf('.') !== -1 ? n.indexOf('.') : n.length;
     for(var i = 0; i < n.length; i++){
-        if(n.charAt(i) === '0' || i === ref) continue;
+        if(n.charAt(i) === '0' || i === dot) continue;
         var zeros = '';
         var j = 0;
-        if(i < ref){
-            while(j < ref-i-1){
+        if(i < dot){
+            while(j < dot-i-1){
                 zeros = zeros.concat('0');
                 j++;
             }
             result.push(n.charAt(i)+''+zeros);
-        }else{
-            while(j < (i-ref-1)){
+        } else {
+            while(j < (i-dot-1)){
                 zeros = zeros.concat('0');
                 j++;
             }
