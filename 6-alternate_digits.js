@@ -1,23 +1,27 @@
 function alternate(a,b){
-    var c = 1;
-    var r = 0;
+    var res = '';
 
-    while(a!==0 && b!==0){
-        var x = (a%10)*c;
-        var y = (b%10)*c*10;
-        r+=(x+y);
-        a=parseInt(a/10);
-        b=parseInt(b/10);
-        c*=100;
+    var strA = a.toString();
+    var strB = b.toString();
+    var i = 0;
+    while(i<strA.length && i<strB.length){
+        res = res.concat(strA.charAt(i), strB.charAt(i));
+        i++;
     }
-    r+=((a+b)*c)
+    if(i<strA.length){
+        res = res.concat(strA.substr(i));
+    }
+    if(i<strB.length){
+        res = res.concat(strB.substr(i));
+    }
     
-    if(r > 100000){
+    res = Number.parseInt(res);
+    if(res > 100000){
         return -1;
     }
-    return r;
+    return res;
 }
 
-console.log(alternate(12,56)); // returns 5162
-console.log(alternate(12,456)); // returns 45162
+console.log(alternate(12,56)); // returns 1526
+console.log(alternate(12,456)); // returns 14256
 console.log(alternate(123,456)); // returns -1
