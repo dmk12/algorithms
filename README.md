@@ -59,7 +59,7 @@ Input is two integers a and b. The function returns a new integer r which is com
 ##### Examples
 For a = 12 and b = 56 output should be `1526`
 
-For a = 12 and b = 456 output should be `41526`
+For a = 12 and b = 456 output should be `14256`
 
 For a = 123 and b = 456 output should be `-1`
 
