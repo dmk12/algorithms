@@ -77,4 +77,4 @@ Input is a number num. The function returns a new array arr which is combined of
 ##### Examples
 For num = 3663436363 output should be `[3, 6, 6, 3, 4, 3, 6, 3, 6, 3]`
 
-[Code](https://github.com/dmk12/algorithms/blob/master/8-break_number_to_digits.js)
+[Code](https://github.com/dmk12/algorithms/blob/master/8-break_number_into_digits.js)
