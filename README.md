@@ -78,3 +78,10 @@ Input is a number num. The function returns a new array arr which is combined of
 For num = 3663436363 output should be `[3, 6, 6, 3, 4, 3, 6, 3, 6, 3]`
 
 [Code](https://github.com/dmk12/algorithms/blob/master/8-break_number_into_digits.js)
+
+### 9. Break number into parts
+Input is a number num. The function returns a new array arr which is combined of each digit of num multiplied by the appropriate power of for its position.
+##### Examples
+For num = 3663436363 output should be `[3000000000, 600000000, 60000000, 3000000, 400000, 30000, 6000, 300, 60, 3]`
+
+[Code](https://github.com/dmk12/algorithms/blob/master/9-break_number_into_parts.js)
