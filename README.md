@@ -71,3 +71,10 @@ Input is an array of random arrays arr. The function returns a new array flatArr
 For arr = [[1,2,[3]],4] output should be `[1,2,3,4]`
 
 [Code](https://github.com/dmk12/algorithms/7-flatten_array_of_random_arrays.js)
+
+### 8. Break number into digits
+Input is a number num. The function returns a new array arr which is combined of the digits of num.
+##### Examples
+For num = 3663436363 output should be `[3, 6, 6, 3, 4, 3, 6, 3, 6, 3]`
+
+[Code](https://github.com/dmk12/algorithms/blob/master/8-break_number_to_digits.js)
