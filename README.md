@@ -1,5 +1,5 @@
 ## Software interview algorithms questions 
-This repo contains algorithm questions I've come across in interviews, and my solutions (in JavaScript).
+This repo contains algorithm questions I've come across, and my solutions in JavaScript.
 ### 1. Numeric string zeros
 Input n is a decimal number n as a string. The function expand(n) transforms it into an array of numbers (also given as strings), such that each number has only one non-zero digit and their sum equals n.
 
